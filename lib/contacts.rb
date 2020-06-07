@@ -22,7 +22,6 @@ def remove_strawberry(contacts)
           data.delete_if do |ice_cream| 
             ice_cream == "strawberry"
           end
-    binding.pry
         end
       end 
     end
